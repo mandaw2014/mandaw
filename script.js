@@ -97,4 +97,4 @@ const topPos = notifyText.offsetTop;
 
 notification.addEventListener("mousedown", () => {
     window.scrollTo(0, topPos);
-});
+}); 
