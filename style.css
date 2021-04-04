@@ -252,6 +252,15 @@ html, body {
     height: 100px;
 }
 
+.footer {
+    background-color: #414141;
+    color: white;
+    position: absolute;
+    top: 3800px;
+    width: 100%;
+    height: 100px;
+}
+
 #copyright {
     position: relative;
     top: 50px;
@@ -385,7 +394,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 750px) {
     #wbg {
         opacity: 0;
         width: 0%;
@@ -429,7 +438,7 @@ html, body {
     }
     #ces {
         position: relative;
-        top: 500px;
+        top: 600px;
         left: 0px;
         text-align: center;
     }
@@ -465,7 +474,7 @@ html, body {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        top: -500px;
+        top: -400px;
         width: 50%;
         font-size: 5vw;
     }
@@ -483,7 +492,7 @@ html, body {
     }
     #footer {
         position: absolute;
-        top: 3000px;
+        top: 3200px;
     }
     #downloadSteps {
         font-size: 30px;
@@ -517,7 +526,7 @@ html, body {
         margin-right: auto;
     }
     #stepDiv {
-        height: 2300px;
+        height: 2500px;
     }
     @keyframes slide {
         0%{left: -200px; opacity: 0;}
@@ -527,5 +536,363 @@ html, body {
     @keyframes slide1 {
         0%{left: 200px; opacity: 0;}
         100%{left: 10px; opacity: 1;}
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #ces {
+        position: absolute;
+        left: 600px;
+        top: 1540px;
+    }
+    #stepDiv {
+        height: 2500px;
+    }
+    #weatherText {
+        position: relative;
+        top: 100px;
+    }
+    #mandawweather {
+        position: relative;
+        top: 150px;
+    }
+    .topnav a {
+        font-size: 3vw;
+    }
+    #mandawBot {
+        position: relative;
+        top: 800px;
+        left: -50px;
+    }
+    #mandawImg {
+        position: relative;
+        top: 880px;
+        left: -50px;
+        width: 30%;
+        height: auto;
+    }
+    #haf {
+        position: absolute;
+        top: 2570px;
+    }
+    #footer {
+        position: absolute;
+        width: 100%;
+    }
+    #exe {
+        position: absolute;
+        left: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .topnav a {
+        font-size: 2vw;
+    }
+    #weatherText {
+        position: absolute;
+        top: 1300px;
+    }
+    #mandawweather {
+        position: absolute;
+        top: 1450px;
+    }
+    #ces {
+        position: absolute;
+        left: 800px;
+    }
+    .download {
+        position: relative;
+        top: 650px;
+    }
+    #mandawBot {
+        position: relative;
+        top: 900px;
+    }
+    #mandawImg {
+        position: relative;
+        top: 1000px;
+    }
+    #haf {
+        position: relative;
+        top: 830px;
+    }
+    #btn {
+        position: relative;
+        top: 1300px;
+    }
+    .footer {
+        position: absolute;
+        top: 4100px;
+    }
+    #exe {
+        position: absolute;
+        left: 390px;
+    }
+    #download {
+        position: relative;
+        top: -1200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bg {
+        background-image: url("./Screenshots/sunset.png");
+        background-repeat: repeat no-repeat;
+        height: 100vh;
+        width: 100%;
+        opacity: 0.5;
+        overflow: hidden;
+        padding: 100px 0px;
+        position: relative; 
+    }
+
+    .topnav a {
+        font-size: 1.4vw;
+    }
+    
+    #title {
+        color: rgb(0, 0, 0, 0.5);
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 8vw;
+        position: absolute;
+        top: 350px;
+        transition: font-size 0.5s;
+        width: 100%;
+    }
+    
+    #title:hover {
+        font-size: 9vw;
+    }
+    
+    #wbg {
+        position: absolute;
+        top: 1100px;
+        opacity: 0.5;
+        height: 1070px;
+        width: 100%;
+    }
+    
+    #weatherText {
+        color: rgb(48, 48, 48);
+        font-size: 5vw;
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        top: 1250px;
+        left: 20px;
+        opacity: 1;
+    }
+    
+    #mandawweather {
+        width: 50%;
+        height: auto;
+        position: relative;
+        top: 300px;
+        left: 20px;
+        opacity: 1;
+    }
+    
+    #ces {
+        position: absolute;
+        left: 1000px;
+        top: 1500px;
+        font-size: 4vw;
+        font-weight: 1000;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .download {
+        background-color: rgb(9, 206, 255);
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+        border-radius: 30px 30px 30px 30px;
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 600px;
+        width: 20%;
+    }
+    
+    #download {
+        background-color: rgb(9, 206, 255);
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+        border-radius: 30px 30px 30px 30px;
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -800px;
+        width: 20%;
+    }
+    
+    #mbg {
+        position: absolute;
+        top: 2400px;
+        width: 100%;
+        opacity: 0.3;
+    }
+    
+    #mandawBot {
+        color: rgb(48, 48, 48);
+        font-size: 5vw;
+        font-family: 'Roboto', sans-serif;
+        position: relative;
+        top: 930px;
+        left: -30px;
+        opacity: 0;
+        text-align: right;
+    }
+    
+    #mandawImg {
+        height: 80px;
+        width: 30%;
+        position: relative;
+        top: 1000px;
+        left: -30px;
+        opacity: 0;
+        display: block;
+        margin-left: auto;
+    }
+    
+    #haf {
+        position: absolute;
+        top: 2670px;
+        left: 50px;
+        font-size: 4vw;
+        font-weight: 1000;
+    }
+    
+    #btn {
+        background-color: rgb(9, 206, 255);
+        color: white;
+        font-size: 2vw;
+        text-decoration: none;
+        border-radius: 30px 30px 30px 30px;
+        width: 20%;
+        height: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 1600px;
+    }
+    
+    #home {
+        position: absolute;
+        width: 85px;
+        height: 54px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+    
+    #weather {
+        position: absolute;
+        height: 54px;
+        width: 104px;
+        top: 0;
+        left: 85px;
+        opacity: 0;
+    }
+    
+    #notification {
+        position: absolute;
+        height: 54px;
+        width: 169px;
+        top: 0;
+        left: 189px;
+        opacity: 0;
+    }
+    
+    #about {
+        position: absolute;
+        height: 54px;
+        width: 120px;
+        top: 0;
+        left: 358px;
+        opacity: 0;
+    }
+    
+    #footer {
+        background-color: #414141;
+        color: white;
+        position: absolute;
+        top: 3800px;
+        width: 100%;
+        height: 100px;
+    }
+    
+    #copyright {
+        position: relative;
+        top: 50px;
+        text-align: center;
+        color: rgb(163, 163, 163);
+    }
+    
+    #stepDiv {
+        background-color: rgb(223, 223, 223);
+        height: 2700px;
+    }
+    
+    #downloadSteps {
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+    }
+    
+    #steps {
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+    
+    #exe {
+        position: absolute;
+        top: 100px;
+        left: 42%;
+    }
+    
+    #defender {
+        position: relative;
+        top: 50px;
+    }
+    
+    #weatherSteps {
+        width: 50%;
+        height: auto;
+    }
+    
+    .slide {
+        display: block;
+        opacity: 1;
+        animation: slide 1s;
+    }
+    
+    .slide1 {
+        display: block;
+        opacity: 1;
+        animation: slide1 1s;
+    }
+    
+    .spin {
+        display: block;
+        opacity: 1;
+        animation: spin 1s linear;
+    }
+    
+    .fade {
+        display: block;
+        opacity: 0;
+        animation: fade 3s;
     }
 }
