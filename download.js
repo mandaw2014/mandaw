@@ -36,4 +36,4 @@ document.addEventListener("scroll", () => {
     } else {
       steps.classList.remove("fade");
     }
-});
+}); 
